@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roguelike</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <p>Roguelike</p>
+    </header>
+
+    <div id="corps">
+      <table>
+        <tbody id="main"></tbody>
+      </table>
+
+      <div id="bouton">
+        <input type="button" value="up" id="up" />
+
+        <div id="bouton2">
+          <input type="button" value="left" id="left" />
+          <input type="button" value="down" id="down" />
+          <input type="button" value="right" id="right" />
+        </div>
+        <input type="button" value="Restart" id="recommencer" />
+      </div>
+
+      <p id="score">score: 0</p>
+
+      <div id="gameOverMessage">
+        GAME OVER!!!<br />APPUYEZ SUR RESTART POUR RECOMMENCER
+      </div>
+
+      <div id="gagner">
+        VOUS AVEZ GAGNEZ!!!<br />APPUYEZ SUR RESTART POUR RECOMMENCER
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023</p>
+    </footer>
+  </body>
+</html>
